@@ -1,0 +1,96 @@
+
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.cabeza{
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #191919;
+	width: 100%;
+	top: 0;
+	left: 0;
+	color: #fff;
+}
+
+.logoImg{
+	object-fit: scale-down;
+	width: 100px;
+	margin-left: -100p
+}
+
+.cabeza ul li{
+	list-style: none;
+	font-family: sans-serif;
+	transition: all .5s ease-in-out;
+}
+.cabeza ul li:hover{
+	font-size: 18px;
+}
+
+.cabeza ul{
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	margin-left: -200px;
+}
+
+.cabeza h3{
+	font-family: sans-serif;
+	margin-left: -200px;
+}
+
+.cabeza .search{
+	margin-top: 15px;
+	margin-left: -100px;
+	display: flex;
+}
+.cabeza .search input{
+	width: 100%;
+	border: 1px solid #3f3f3f;
+	padding: 5px;
+	height: 30px;
+	background-color: #3f3f3f;
+	outline: none;
+	color: #fff;
+}
+
+.cabeza .search input:focus{
+	color: #d8d8d8;
+}
+
+#boton {
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+.entrada{
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1
+}
+
+.entrada img{
+	object-fit: cover;
+	position: fixed;
+	z-index: -1;
+
+}
+
+.entrada svg{
+	position: absolute;
+	top: 600px;
+}
